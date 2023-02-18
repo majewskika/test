@@ -1,0 +1,17 @@
+git init - tworzy puste repo
+git add [nazwa pliku] - dodaje konkretny plik
+git add index.html
+
+git add . - dodaje wszystkie pliki
+git commit -m "krótki opis zmian, które zrobiliśmy"
+
+git status - sprawdzamy status plików w repo
+
+git branch - sprawdzamy branche i na którym aktualnie jesteśmy
+git checkout -b [nazwa] - dodajemy nowy branch o nazwie [nazwa] (bez nawiasów). przy tym tworzeniu od razu się na niego przełączamy
+git branch [nazwa] - druga metoda dodawania brancha. przy tym tworzeniu nie przełączamy się na nowoutworzony branch
+git branch -d [nazwa] - usuwamy branch. nie możemy znajdować się na branchu, który chcemy usunąć
+git checkout [nazwa brancha] - przełączanie się na konkretny branch
+git checkout main - przełączanie się na main
+
+git merge [nazwa brancha] - łączenie konkretnego brancha z main'em (w momencie wpisywania tej komendy musimy znajdować się na main'ie
